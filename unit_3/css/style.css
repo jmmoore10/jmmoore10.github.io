@@ -1,0 +1,12 @@
+body {
+   background-image: url("images/cityscape.jpg");
+   color: #274b58;
+}
+
+h1 {
+	color:#274b58;
+}
+
+#slogan {
+	font-style: italic;
+}
