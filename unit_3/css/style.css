@@ -1,12 +1,22 @@
 body {
-   background-image: url("images/cityscape.jpg");
    color: #274b58;
+   background: url("https://images.unsplash.com/photo-1527634632829-7f220bb9e667?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2700&q=80");
+   background-size: cover;
+   font-family: Helvetica, sans-serif;
 }
 
 h1 {
 	color:#274b58;
+	text-transform: uppercase;
+	font-family: Futura, sans-serif;
 }
+
+p{
+    font-weight: 700;
+}
+
 
 #slogan {
 	font-style: italic;
+	font-weight:500;
 }
