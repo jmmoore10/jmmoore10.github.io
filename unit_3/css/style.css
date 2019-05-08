@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Sofia');
+
 * {
 	padding: 0;
 	margin: 0;
@@ -7,21 +11,33 @@
 header {
 	background-color: #f2d58f;
 	padding: 20px;
+	font-family: 'Sofia', cursive;
 }
 
 body {
    color: #274b58;
    background: url("https://images.unsplash.com/photo-1527634632829-7f220bb9e667?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2700&q=80");
    background-size: cover;
-   font-family: Helvetica, Arial, sans-serif;
    font-size: 20px;
+   font-weight: 400;
+   font-family: 'Montserrat', sans-serif;
 }
 
 h1 {
 	color:#274b58;
-	text-transform: uppercase;
-	font-family: Futura, sans-serif;
+	text-transform: lowercase;
+	font-size:62px;
 }
+
+h2 {
+	font-weight:600;
+}
+
+h4, nav {
+	font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+}
+
 
 section{
 	padding:20px;
@@ -41,11 +57,24 @@ a{
 }
 
 p{
-    font-weight: 700;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
 }
 
+
+.topnav{
+
+}
 
 #slogan {
 	font-style: italic;
 	font-weight:500;
+}
+
+#popcities {
+
+}
+
+#popactivities {
+
 }
