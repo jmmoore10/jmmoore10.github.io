@@ -11,6 +11,7 @@ header {
 	background-color: #f2d58f;
 	padding: 20px;
 	font-family: 'Sofia', cursive;
+    border: 1px black solid;
 }
 
 body {
@@ -37,31 +38,55 @@ h4, nav {
     font-family: 'Montserrat', sans-serif;
 }
 
-
-section{
-	padding:20px;
+nav {
+	background-color: #E8C66A;
+    border: 1px black solid;
+    padding: 20px;
 }
 
-ul{
+
+section {
+	background-color: #FFE2B8;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+article {
+	background-color: #E89C6C;
+    border: 1px black solid;
+    padding: 20px;
+}
+ 
+ul {
 	padding-left:20px;
 }
 
-footer{
+footer {
 	padding: 20px;
+	background-color: #FF957E;
+    border: 1px black solid;
 }
 
-a{
+a {
 	color: inherit;
 	text-decoration: none;
 }
 
-p{
+p {
     font-weight: 400;
     font-family: 'Montserrat', sans-serif;
 }
 
 
-.topnav{
+.topnav {
+
+}
+
+.title {
+
+}
+
+.examples {
 
 }
 
@@ -70,10 +95,23 @@ p{
 	font-weight:500;
 }
 
-#popcities {
+#headernav {
 
 }
 
-#popactivities {
+#about {
 
 }
+
+#howto {
+
+}
+
+#cities {
+
+}
+
+#activities {
+
+}
+
