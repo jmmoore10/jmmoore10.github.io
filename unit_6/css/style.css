@@ -35,6 +35,8 @@ h1 {
 h2 {
 	font-weight:600;
 	line-height: 1.4em;
+	font-size: 1.6em;
+	color: #274b58;
 }
 
 h3 {
@@ -81,12 +83,9 @@ nav a:active {
 
 
 section {
-    border: 1px black solid;
-    padding: 20px;
 }
 
 article {
-    border: 1px black solid;
     padding: 20px;
 }
  
@@ -129,22 +128,28 @@ input {
 
 .title {
 	text-align: center;
+	font-weight: 800;
+	text-transform: uppercase;
+	color: #ffffff;
 }
 
+
 .examplesrow1 p {
-	width: 25%;
+	width: 27%;
  	padding: 10px;
  	margin: 2%;
  	float: left;
- 	background-color: #ffea00;
+ 	background-color: rgb(232, 198, 106);
+ 	text-align: center;
 }
 
 .examplesrow2 p {
-	width: 25%;
+	width: 27%;
  	padding: 10px;
  	margin: 2%;
  	float: left;
- 	background-color: #ffea00;
+ 	background-color: rgb(232, 198, 106);
+ 	text-align: center;
 }
 
 
@@ -237,6 +242,7 @@ input {
 #about {
 	background: #274b58;
 	border: 0px black solid;
+	padding: 20px;
 }
 
 #about h4 {
@@ -251,11 +257,11 @@ input {
 }
 
 #cities {
-
+   background-color: white;
 }
 
 #activities {
-
+   background-color: rgba(39, 75, 88, 0.9);
 }
 
 #hero {
